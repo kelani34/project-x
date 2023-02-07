@@ -8,10 +8,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/" element={<Login />} />
-          <Route path="/" element={<Verify />} />
-          <Route path="/" element={<ResetPassword />} />
-          <Route path="/" element={<Connect />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/verify" element={<Verify />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="/connect" element={<Connect />} />
         </Routes>
       </Router>
     </div>
