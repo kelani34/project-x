@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home, Signup, Login, Verify, ResetPassword, Connect } from "./pages";
 
 function App() {
