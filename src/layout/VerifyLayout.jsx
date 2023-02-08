@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { EmailVerificationContainer } from "../components";
 
 const VerifyLayout = () => {
   return (
-    <div>Connect</div>
-  )
-}
+    <div>
+      <EmailVerificationContainer />
+    </div>
+  );
+};
 
-export default VerifyLayout
+export default VerifyLayout;

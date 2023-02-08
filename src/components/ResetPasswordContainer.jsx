@@ -4,33 +4,18 @@ import images from "../constants/images";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { Link } from "react-router-dom";
-import axios from "axios";
-import { country_list } from "../constants/data";
 
 const ResetPasswordContainer = () => {
   const initialValues = {
     email: "",
-    password: "",
   };
-
-  const [passwordState, setPasswordState] = useState("password");
-
   function validationSchema() {
     return Yup.object().shape({
       email: Yup.string()
         .required("Email is required")
         .email("Email is invalid"),
-      password: Yup.string().required("Password is required"),
     });
   }
-  const handleViewPassword = () => {
-    if (passwordState === "text") {
-      setPasswordState("password");
-    } else {
-      setPasswordState("text");
-    }
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(data);
@@ -41,7 +26,9 @@ const ResetPasswordContainer = () => {
         <div className="md:w-[60%] md:border-solid md:border md:border-[#CDD2D5] md:py-4 md:px-12">
           <div className="flex flex-col justify-center mt-10">
             <div className="flex justify-center">
-              <img src={images.reset} alt="reset" />
+              <Link to="/login">
+                <img src={images.reset} alt="reset" />
+              </Link>
             </div>
             <div className="flex flex-col justify-center ">
               <h1 className="md:font-semibold lg:text-[32px] md:text-[28px] text-[24px] text-center my-10">

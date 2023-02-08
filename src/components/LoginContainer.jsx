@@ -114,14 +114,14 @@ const SignupContainer = () => {
                     <div className="md:w-[60%] m-auto">
                       <Button text="Login" />
                     </div>
-                    <p className="text-center my-3 md:block hidden">
-                      Already have an account?
+                    <p className="text-center my-4 md:block hidden">
+                      Don’t have an account?
                       <Link to="/login" className="text-[#79F871]">
-                        Log In
+                        Create One
                       </Link>
                     </p>
 
-                    <p className="text-center my-3 md:hidden">
+                    <p className="text-center my-4 md:hidden">
                       Don’t have an account?{" "}
                       <Link to="/signup" className="text-[#79F871]">
                         Create One

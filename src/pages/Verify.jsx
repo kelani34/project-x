@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { VerifyLayout } from "../layout";
 
 const Verify = () => {
   return (
-    <div>Connect</div>
-  )
-}
+    <div>
+      <VerifyLayout />
+    </div>
+  );
+};
 
-export default Verify
+export default Verify;

@@ -20,7 +20,7 @@ function App() {
         <Route path="/signup/intern" element={<InternSignup />} />
         <Route path="/signup/employer" element={<EmployerSignup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/verify" element={<Verify />} />
+        <Route path="/email-verification" element={<Verify />} />
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     </Router>
