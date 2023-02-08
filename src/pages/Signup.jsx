@@ -1,7 +1,7 @@
 import React from "react";
 import { SignupLayout } from "../layout";
 
-const SignUp  = () => {
+const Signup = () => {
   return (
     <div>
       <SignupLayout />
@@ -9,4 +9,4 @@ const SignUp  = () => {
   );
 };
 
-export default SignUp;
+export default Signup;

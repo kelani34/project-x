@@ -1,10 +1,10 @@
 import React from "react";
-import Connect from "./Signup";
+import { HomeLayout } from "../layout";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <HomeLayout />
     </div>
   );
 };
