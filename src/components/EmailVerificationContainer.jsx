@@ -10,9 +10,7 @@ const EmailVerificationContainer = () => {
         <div className="md:w-[60%] md:border-solid md:border md:border-[#CDD2D5] md:py-4 md:px-12">
           <div className="flex flex-col justify-center mt-10">
             <div className="flex justify-center">
-              <Link to="/login">
                 <img src={images.verify} alt="reset" />
-              </Link>
             </div>
             <div className="flex flex-col justify-center ">
               <h1 className="md:font-semibold lg:text-[32px] md:text-[28px] text-[24px] text-center my-10">
