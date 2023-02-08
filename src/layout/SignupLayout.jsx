@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SignupContainer from "../components/SignupContainer";
 
 const SignupLayout = () => {
   return (
-    <div>Connect</div>
-  )
-}
+    <div className="h-full">
+      <SignupContainer />
+    </div>
+  );
+};
 
-export default SignupLayout
+export default SignupLayout;
