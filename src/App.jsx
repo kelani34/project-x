@@ -23,7 +23,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/verify" element={<Verify />} />
         <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="/connect" element={<Connect />} />
       </Routes>
     </Router>
   );

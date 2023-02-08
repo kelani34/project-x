@@ -1,12 +1,12 @@
 import React from "react";
 import { SignupLayout } from "../layout";
 
-const Signup = () => {
+const SignupLayout = () => {
   return (
-    <div className="h-full">
+    <>
       <SignupLayout />
-    </div>
+    </>
   );
 };
 
-export default Signup;
+export default Connect;
