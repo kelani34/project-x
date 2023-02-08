@@ -1,13 +1,12 @@
-import React from 'react'
-import Connect from './Connect'
+import React from "react";
+import Connect from "./Connect";
 
 const Home = () => {
   return (
     <div>
-    {/* Homeeer */}
-    <Connect/>
+      <h1>Home Page</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
