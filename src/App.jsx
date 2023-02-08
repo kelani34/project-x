@@ -6,7 +6,6 @@ import {
   Login,
   Verify,
   ResetPassword,
-  Connect,
   EmployerSignup,
   InternSignup,
 } from "./pages";
