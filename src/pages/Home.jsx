@@ -1,8 +1,12 @@
 import React from 'react'
+import Connect from './Connect'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+    {/* Homeeer */}
+    <Connect/>
+    </div>
   )
 }
 
