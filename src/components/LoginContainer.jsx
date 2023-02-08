@@ -104,9 +104,14 @@ const SignupContainer = () => {
                         className="mt-1 mb-2 text-xs text-[#f52d2d]"
                       />
                     </div>
+                    <div className="mb-4">
+                      <Link to="/reset-password" className="text-[#79F871]">
+                        Forgot Password?
+                      </Link>
+                    </div>
                   </div>
                   <div className=" m-auto">
-                    <div className="w-[60%] m-auto">
+                    <div className="md:w-[60%] m-auto">
                       <Button text="Login" />
                     </div>
                     <p className="text-center my-3 md:block hidden">

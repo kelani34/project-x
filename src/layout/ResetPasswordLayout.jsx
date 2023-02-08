@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { ResetPasswordContainer } from "../components";
 
 const ResetPasswordLayout = () => {
   return (
-    <div>Connect</div>
-  )
-}
+    <div>
+      <ResetPasswordContainer />
+    </div>
+  );
+};
 
-export default ResetPasswordLayout
+export default ResetPasswordLayout;
